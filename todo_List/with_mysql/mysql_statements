@@ -1,0 +1,3 @@
+create database notes;
+use notes;
+create table tasks(id int(11) not null AUTO_INCREMENT primary key,todo varchar(100),status boolean);
